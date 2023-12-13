@@ -1,0 +1,65 @@
+/* @mixin breakpoint ($breakpoint){
+    @media screen and (max-width : $breakpoint) {
+        @content;
+    }
+    } */
+  
+
+/* coomingsoon */
+    * {
+        margin : 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family:cursive;
+    }
+    
+    .content h1{
+        color: aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 20px;
+    }
+    
+    .content h2{
+        color: aliceblue;
+        font-style: oblique;
+        font-size: 50px;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('background.jpg');
+        background-size: cover;
+        position: relative;
+        min-height: 600px;
+    }
+    
+    &:after{
+        display: block;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;     
+    }
+    
+    .content{
+        position: relative;
+        z-index: 1;
+    }
+    
+    .countdown{
+        color: aliceblue;
+        font-size: 40px;
+        padding: 20px;
+        font-weight: 400;
+    
+    }

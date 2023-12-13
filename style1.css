@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(255, 230, 230);
+}
+
+*{
+    font-family: "Poppins" , sans-serif;
+}
+nav div a{
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.navbar-brand img {
+    align-items: center;
+    border-radius: 50%;
+  }
+
+
+.header{
+    height: 500px;
+}
+
+#services img {
+    height: 350px;
+    border-radius: 10px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+#caraousel{
+    background-color: aliceblue;
+}
+
+.textKita{
+    color: #FFC7C7;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    
+}
+
+footer .lead{
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
